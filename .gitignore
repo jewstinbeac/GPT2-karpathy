@@ -1,0 +1,62 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+*.venv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch model checkpoints
+*.pth
+*.pt
+checkpoints/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Cache files
+.cache
+*.cache
+
+# Logs
+*.log
+logs/
+
+# Data files (uncomment if you don't want to include the dataset)
+# data/
+# input.txt
