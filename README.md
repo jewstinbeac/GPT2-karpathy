@@ -68,17 +68,31 @@ The model is trained on the Tiny Shakespeare dataset:
 
 ## 🎭 Sample Output
 
-After training, the model generates Shakespeare-like text:
+After training, when tasked to generate 500 tokens, the model generates Shakespeare-like text:
 
 ```
-DUKE OF GLOUCESTER:
-And if I die, I shall be buried in the
-Tower of London, and the king shall be
-crowned with a crown of gold.
+Now, now that I have resistal to begive
+your buttery.
 
-KING RICHARD III:
-What say you to this?
-```
+First Citizen:
+Why, I have well.
+
+MENENIUS:
+Eithout now, and own hath some showfellow.
+
+COMINIUS:
+Pray, be leaden.--Pleased: you will
+hank once; you have no more changes to Roman,
+most lovy: you had more remempersed homockerse, hoarsom the boards
+to fail be a body passible, and deakers of life
+favouring within him.
+
+Second Musician:
+He and hath follow'd a sayon 'dobble
+maids ve with him.
+
+PAULINA:
+O, by this senate, they rather lies they ren
 
 ## 💻 Usage
 
@@ -118,7 +132,7 @@ Based on Andrej Karpathy's "Let's build GPT: from scratch, in code, spelled out"
 | Model | Parameters | Training Loss | Validation Loss | Generation Quality |
 |-------|------------|---------------|-----------------|-------------------|
 | Bigram | ~4K | 2.5 | 2.5 | Random characters |
-| GPT-2 | ~10M | 1.2 | 1.4 | Coherent Shakespeare |
+| GPT-2 | ~10M | 1.2 | 1.4 | Semi-Coherent Shakespeare |
 
 ## 🤝 Contributing
 
